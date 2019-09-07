@@ -1,0 +1,71 @@
+What is HTML
+
+	- It stands for "Hypertext Markup Language
+	-It is the main langauge of the Web
+	-A web browser (e.g IE, Chrome Firefox) reads HTML files and determines how to display them on screen
+
+HTML Tags
+	-Are basic elements of HTML
+	-They definet he rules that control how the browser displays the information
+Basic Syntax
+	<element>Content</element> or <element />
+
+<HTML lang="en">  Marks the beginning of an HTML page - Says its an english page 
+</html> 	                  Marks the end of the HTML page
+<head>		Marks the beginning of the Header section
+</head>		Marks the end of the header section of the page
+<body>		Marks the beginning of the body (Content) section 
+</body>		Marks the end of the body/content section
+<title>		Marks the beginning of the page title (displayed in the browser tab/window)
+</title>		Marks the end of the page title (displayed in browser tab/window)
+
+DOCTYPE declaration needs to be your first line
+It is not considered an HTML tag as it just indicates the HTML version being used
+
+	<!DOCTYPE html> 	(What we will be using primarely)
+	<!DOCTYPE HTML PUBLIC "-//WSC//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+	<!DOCTYPE HTML PUBLIC "-//WSC//DTD HTML 1.0 Strict//EN""http:www.w3.org/TR/xhtml1/DTD/xhtml1-strict-dtd">
+
+Notepad++ is what we will be using
+
+	First Page in a website is a index
+	save files as HYPER TEXT MARKUP LANGUAGE or .html file
+	
+The Web page is everything under the titlebar - called a view port
+
+	Title shows up on the TAB
+
+HTML comment blocks
+
+	<!-- 
+		This is a comment
+	 -->
+
+comments only appear on the page source
+
+-There are many character sets that we can use in computing (e.g. ASCII, Latin-1, Unicode, UTF-8)
+
+		-We specifiy the page's character set using a meta tag
+
+-In HTML we can use meta tags to tell the browser special information about our html document
+
+		-metadata refers to the concept of information abou other information
+
+-The meta tag should also go within your     head 	section
+
+<meta charset= "UTF-8" />
+
+a meta tab is a self closing tag it doens't hold any other content
+Its propterty = somthing in quotes
+
+<meta name="keywords" content="Web, code, HTML, development" />
+
+Meta tags are information that you are using 
+
+You can validate your website on W3C you can paste in URL
+You can file upload
+Direct input which is putting in your code directly
+
+It will give errors if you didn't do somthing
+
+
