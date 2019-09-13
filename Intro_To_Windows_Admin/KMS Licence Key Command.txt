@@ -1,0 +1,12 @@
+KMS License Key for Windows 10 Professional
+
+Run the following commands in a command prompt that you are running as administrator (elevated):
+
+Type/paste in the following to install the KMS key:
+slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+Type/paste in the following to point the computer to the KMS server:
+slmgr.vbs -skms 10.13.1.39
+
+Type/paste in the following to force the activation when on campus:
+slmgr.vbs -ato
